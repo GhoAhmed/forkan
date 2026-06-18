@@ -1,5 +1,7 @@
-const App = () => {
-  return <div className="underline first-letter:text-2xl">App</div>;
-};
+import WelcomePage from "./pages/WelcomePage";
+
+function App() {
+  return <WelcomePage />;
+}
 
 export default App;
